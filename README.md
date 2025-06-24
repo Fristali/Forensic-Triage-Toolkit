@@ -2,7 +2,7 @@
 
 **End-to-end automation for disk & RAM acquisition** using Velociraptor with SHA-256 hashing, chain-of-custody JSON manifest, optional encryption/compression, S3 upload, evidence retention, and detailed logging.
 
-[![CI/CD Pipeline](https://github.com/your-org/forensic-triage-toolkit/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/your-org/forensic-triage-toolkit/actions)
+[![CI/CD Pipeline](https://github.com/Fristali/Forensic-Triage-Toolkit/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/Fristali/Forensic-Triage-Toolkit/actions)
 [![PowerShell](https://img.shields.io/badge/PowerShell-7.0+-blue.svg)](https://github.com/PowerShell/PowerShell)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue.svg)](https://your-org.github.io/forensic-triage-toolkit/)
@@ -32,7 +32,7 @@
 
 1. **Clone the repository:**
    ```powershell
-   git clone https://github.com/your-org/forensic-triage-toolkit.git
+   git clone https://github.com/Fristali/Forensic-Triage-Toolkit
    cd forensic-triage-toolkit
    ```
 

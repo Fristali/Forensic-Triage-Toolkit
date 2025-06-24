@@ -89,7 +89,7 @@ Describe "Phase 2 - Hash & Manifest Functions" {
     
     Describe "Get-ArtifactHash" {
         
-        It "Should calculate hash for a single file" {
+        It "Should calculate hash for a single file" -Tag "Fast" {
             $result = Get-ArtifactHash -FilePath $script:TestArtifact1
             
             $result.Summary.TotalFiles | Should -Be 1
@@ -105,7 +105,7 @@ Describe "Phase 2 - Hash & Manifest Functions" {
             $hashResult.SizeBytes | Should -BeGreaterThan 0
         }
         
-        It "Should calculate hashes for multiple files" {
+        It "Should calculate hashes for multiple files" -Tag "Fast" {
             $result = Get-ArtifactHash -FilePath @($script:TestArtifact1, $script:TestArtifact2, $script:TestArtifact3)
             
             $result.Summary.TotalFiles | Should -Be 3
