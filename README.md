@@ -268,12 +268,6 @@ Write-LogMessage -Message "Configuration loaded" -Level Verbose -LogFile "./evid
 - **Data Protection**: Optional encryption before S3 upload
 - **Access Control**: Secure AWS credentials and S3 bucket permissions
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-org/forensic-triage-toolkit/issues)
-- **Documentation**: See `Phases.md` for technical implementation details
-- **Contributing**: Follow the phased development approach outlined in `Phases.md`
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
