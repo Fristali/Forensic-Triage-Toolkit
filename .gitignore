@@ -1,0 +1,278 @@
+# ==============================================
+# Forensic Triage Toolkit - .gitignore
+# ==============================================
+
+# ====== PYTHON VIRTUAL ENVIRONMENTS ======
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ====== TEST OUTPUT & EVIDENCE ======
+# Test evidence and output directories
+evidence/
+test-evidence/
+tests/evidence/
+tests/logs/
+tests/output/
+tests/temp/
+tests/artifacts/
+
+# Legacy test directories (consolidated structure)
+test/
+test-phase5/
+test-phase6/
+
+# Build and package outputs
+build-output/
+package/
+*.zip
+*.tar.gz
+*.7z
+
+# ====== CONFIGURATION & SECRETS ======
+# Environment configuration files
+.env
+config.env
+config.env.*
+secrets.env
+local.env
+
+# AWS credentials and config
+.aws/
+aws-credentials.*
+credentials.json
+*.pem
+*.key
+*.crt
+
+# ====== LOG FILES ======
+# All log files and temporary logs
+*.log
+*.json.log
+logs/
+temp-logs/
+acquisition_*.log
+velociraptor_*.log
+quick_test*.log
+
+# ====== FORENSIC BINARIES & TOOLS ======
+# Velociraptor binaries (large files)
+bin/velociraptor*
+bin/*.exe
+bin/*.msi
+bin/*.deb
+bin/*.rpm
+
+# Other forensic tools
+tools/
+binaries/
+*.exe
+*.msi
+*.dmg
+*.pkg
+
+# ====== TEMPORARY & CACHE FILES ======
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+*.cache
+*.bak
+*.backup
+*.old
+*.orig
+
+# Swap files
+*.swp
+*.swo
+*~
+
+# ====== OPERATING SYSTEM FILES ======
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.nfs*
+
+# ====== IDE & EDITOR FILES ======
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ====== POWERISHELL SPECIFIC ======
+# PowerShell profiles and history
+$PROFILE.*
+ConsoleHost_history.txt
+
+# Module build artifacts
+*.psd1.bak
+*.psm1.bak
+
+# ====== FORENSIC ARTIFACTS ======
+# Raw forensic images (can be very large)
+*.raw
+*.img
+*.dd
+*.001
+*.e01
+*.vmem
+*.mem
+*.dmp
+*.bin
+
+# Compressed forensic images
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+
+# Metadata files
+*.metadata.json
+*.hash
+*.manifest
+
+# ====== CLOUD & DEPLOYMENT ======
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Docker
+.dockerignore
+Dockerfile.*
+
+# Kubernetes
+*.kubeconfig
+
+# ====== DOCUMENTATION BUILDS ======
+# Generated documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# ====== SECURITY & COMPLIANCE ======
+# Certificate files
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Hash files
+*.sha256
+*.md5
+*.sha1
+
+# ====== TESTING FRAMEWORKS ======
+# Pester test results
+TestResults.xml
+coverage.xml
+*.coverage
+.coverage
+
+# Test artifacts
+test-results/
+coverage-report/
+
+# ====== MISCELLANEOUS ======
+# Large files that shouldn't be in Git
+*.iso
+*.vhd
+*.vhdx
+*.vmdk
+*.ova
+*.ovf
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compressed archives
+*.tar.xz
+*.tgz
+
+# Node.js (if any JS tools are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ====== FORENSIC SPECIFIC EXCLUSIONS ======
+# Case-specific directories
+case-*/
+cases/
+investigations/
+
+# Hash databases
+*.hashdb
+*.nsrl
+
+# Timeline files
+*.timeline
+*.csv
+
+# Memory analysis
+*.vol
+*.volatility
+
+# ====== END OF .gitignore ====== 

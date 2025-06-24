@@ -1,0 +1,115 @@
+{
+  "ManifestVersion": "1.0",
+  "HashSummary": {
+    "TotalFiles": 2,
+    "SuccessfulHashes": 2,
+    "FailedHashes": 0,
+    "TotalDurationSeconds": 0.2022934,
+    "Timestamp": "2025-06-24T09:11:15.621Z"
+  },
+  "Timestamp": "2025-06-24T09:11:15.218Z",
+  "Integrity": {
+    "VerificationMethod": "PowerShell Get-FileHash",
+    "CreatedBy": "alial",
+    "ManifestHash": "12753B35145BDD584C44660E29411FF3517984D01ED675389B7BF2005B276701",
+    "HashAlgorithm": "SHA256",
+    "DigitalTimestamp": {
+      "TimestampVersion": "1.0",
+      "SignatureType": "SHA256-Digest",
+      "Signature": "de902d9094e077b23272e0496769dcbcd4bef11cd434cec7fb17537418dc6aa8",
+      "CreatedAt": "2025-06-24T09:11:15.6677161-04:00",
+      "CreatedAtUTC": "2025-06-24T13:11:15.6677161Z",
+      "Payload": {
+        "UnixTimestamp": 1750770676,
+        "TimestampSource": "DESKTOP-UTICHH6",
+        "Data": "{\"ManifestVersion\":\"1.0\",\"HashSummary\":{\"TotalFiles\":2,\"SuccessfulHashes\":2,\"FailedHashes\":0,\"TotalDurationSeconds\":0.2022934,\"Timestamp\":\"2025-06-24T09:11:15.621Z\"},\"Timestamp\":\"2025-06-24T09:11:15.218Z\",\"Integrity\":{\"VerificationMethod\":\"PowerShell Get-FileHash\",\"CreatedBy\":\"alial\",\"ManifestHash\":\"12753B35145BDD584C44660E29411FF3517984D01ED675389B7BF2005B276701\",\"HashAlgorithm\":\"SHA256\",\"CreatedOn\":\"DESKTOP-UTICHH6\"},\"System\":{\"TotalMemoryGB\":15.36,\"ProcessorCount\":16,\"UTCTime\":\"2025-06-24T13:11:15.296Z\",\"LocalTime\":\"2025-06-24T09:11:15.296-04:00\",\"TimeZone\":\"Eastern Standard Time\",\"OSPlatform\":\"Win32NT\",\"PowerShellVersion\":\"7.5.1\",\"CLRVersion\":\"N/A\",\"Username\":\"alial\",\"Domain\":\"DESKTOP-UTICHH6\",\"Architecture\":\"x64\",\"OSVersion\":\"Microsoft Windows NT 10.0.22631.0\",\"Hostname\":\"DESKTOP-UTICHH6\"},\"Artifacts\":[{\"FileName\":\"DESKTOP-UTICHH6_20250624_091108_memory.raw\",\"FilePath\":\"C:\\\\Users\\\\alial\\\\OneDrive\\\\Desktop\\\\Projects\\\\CyberSecurity\\\\Forensic Triage Toolkit\\\\test-phase5\\\\integration\\\\DESKTOP-UTICHH6_20250624_091108_memory.raw\",\"FileExtension\":\".raw\",\"SizeBytes\":10485760,\"SizeMB\":10.0,\"SizeGB\":0.01,\"Hash\":\"D8B60CE92FD0D897827444536ED864C95C1558CE54B391471604872F5DF56673\",\"Algorithm\":\"SHA256\",\"CreationTime\":\"2025-06-24T09:11:08.196Z\",\"LastWriteTime\":\"2025-06-24T09:11:11.529Z\",\"HashCalculationTime\":0.0141418},{\"FileName\":\"DESKTOP-UTICHH6_20250624_091111_disk_TEST.raw\",\"FilePath\":\"C:\\\\Users\\\\alial\\\\OneDrive\\\\Desktop\\\\Projects\\\\CyberSecurity\\\\Forensic Triage Toolkit\\\\test-phase5\\\\integration\\\\DESKTOP-UTICHH6_20250624_091111_disk_TEST.raw\",\"FileExtension\":\".raw\",\"SizeBytes\":10485760,\"SizeMB\":10.0,\"SizeGB\":0.01,\"Hash\":\"3C61271031160B01F970012C6DF02071958B0E2F71D383DFBF5F8B317756254C\",\"Algorithm\":\"SHA256\",\"CreationTime\":\"2025-06-24T09:11:11.695Z\",\"LastWriteTime\":\"2025-06-24T09:11:14.945Z\",\"HashCalculationTime\":0.0153256}],\"Acquisition\":{\"TotalSizeBytes\":20971520.0,\"Method\":\"Velociraptor Standalone\",\"TotalSizeGB\":0.02,\"TotalArtifacts\":2,\"StartTime\":\"2025-06-24T09:11:15.218Z\",\"Parameters\":{}},\"Case\":{\"EvidenceNotes\":\"\",\"CaseNumber\":\"INTEGRATION-TEST\",\"InvestigatorName\":\"Automated Test\",\"AcquisitionDate\":\"2025-06-24T09:11:15.218Z\"},\"GeneratedBy\":\"Forensic Triage Toolkit\",\"Tools\":{\"PowerShellVersion\":\"7.5.1\",\"ToolkitVersion\":\"1.0.0\",\"VelociraptorVersion\":\"Unknown\"},\"ToolkitVersion\":\"1.0.0\"}",
+        "LocalTime": "2025-06-24T09:11:15.6677161-04:00",
+        "SystemInfo": {
+          "TimeZoneOffset": "-05:00:00",
+          "TimeZone": "Eastern Standard Time",
+          "PowerShellVersion": "7.5.1",
+          "CLRVersion": "N/A",
+          "Username": "alial",
+          "Domain": "DESKTOP-UTICHH6",
+          "OSVersion": "Microsoft Windows NT 10.0.22631.0",
+          "Hostname": "DESKTOP-UTICHH6"
+        },
+        "SessionId": 1,
+        "DataHash": "3f0aae9d4ba65896d15cf45e152ca5dfa04f4e0f34a9004af7b7a1e48f040649",
+        "ProcessId": 2712,
+        "UTCTime": "2025-06-24T13:11:15.6677161Z"
+      },
+      "Metadata": {
+        "ToolkitVersion": "1.0.0",
+        "Verified": true,
+        "VerifiedAt": "2025-06-24T09:11:15.6677161-04:00",
+        "SigningMethod": "Local-SHA256"
+      }
+    },
+    "CreatedOn": "DESKTOP-UTICHH6"
+  },
+  "System": {
+    "TotalMemoryGB": 15.36,
+    "ProcessorCount": 16,
+    "UTCTime": "2025-06-24T13:11:15.296Z",
+    "LocalTime": "2025-06-24T09:11:15.296-04:00",
+    "TimeZone": "Eastern Standard Time",
+    "OSPlatform": "Win32NT",
+    "PowerShellVersion": "7.5.1",
+    "CLRVersion": "N/A",
+    "Username": "alial",
+    "Domain": "DESKTOP-UTICHH6",
+    "Architecture": "x64",
+    "OSVersion": "Microsoft Windows NT 10.0.22631.0",
+    "Hostname": "DESKTOP-UTICHH6"
+  },
+  "Artifacts": [
+    {
+      "FileName": "DESKTOP-UTICHH6_20250624_091108_memory.raw",
+      "FilePath": "C:\\Users\\alial\\OneDrive\\Desktop\\Projects\\CyberSecurity\\Forensic Triage Toolkit\\test-phase5\\integration\\DESKTOP-UTICHH6_20250624_091108_memory.raw",
+      "FileExtension": ".raw",
+      "SizeBytes": 10485760,
+      "SizeMB": 10.0,
+      "SizeGB": 0.01,
+      "Hash": "D8B60CE92FD0D897827444536ED864C95C1558CE54B391471604872F5DF56673",
+      "Algorithm": "SHA256",
+      "CreationTime": "2025-06-24T09:11:08.196Z",
+      "LastWriteTime": "2025-06-24T09:11:11.529Z",
+      "HashCalculationTime": 0.0141418
+    },
+    {
+      "FileName": "DESKTOP-UTICHH6_20250624_091111_disk_TEST.raw",
+      "FilePath": "C:\\Users\\alial\\OneDrive\\Desktop\\Projects\\CyberSecurity\\Forensic Triage Toolkit\\test-phase5\\integration\\DESKTOP-UTICHH6_20250624_091111_disk_TEST.raw",
+      "FileExtension": ".raw",
+      "SizeBytes": 10485760,
+      "SizeMB": 10.0,
+      "SizeGB": 0.01,
+      "Hash": "3C61271031160B01F970012C6DF02071958B0E2F71D383DFBF5F8B317756254C",
+      "Algorithm": "SHA256",
+      "CreationTime": "2025-06-24T09:11:11.695Z",
+      "LastWriteTime": "2025-06-24T09:11:14.945Z",
+      "HashCalculationTime": 0.0153256
+    }
+  ],
+  "Acquisition": {
+    "TotalSizeBytes": 20971520.0,
+    "Method": "Velociraptor Standalone",
+    "TotalSizeGB": 0.02,
+    "TotalArtifacts": 2,
+    "StartTime": "2025-06-24T09:11:15.218Z",
+    "Parameters": {}
+  },
+  "Case": {
+    "EvidenceNotes": "",
+    "CaseNumber": "INTEGRATION-TEST",
+    "InvestigatorName": "Automated Test",
+    "AcquisitionDate": "2025-06-24T09:11:15.218Z"
+  },
+  "GeneratedBy": "Forensic Triage Toolkit",
+  "Tools": {
+    "PowerShellVersion": "7.5.1",
+    "ToolkitVersion": "1.0.0",
+    "VelociraptorVersion": "Unknown"
+  },
+  "ToolkitVersion": "1.0.0"
+}
